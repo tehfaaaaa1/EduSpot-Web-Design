@@ -1,0 +1,81 @@
+:root{
+    --base-color: #00A9FF;
+    --p-color: #a5a5a5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+}
+a {
+    color: black;
+}
+p {
+    color: var(--p-color);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    padding: 2rem 7%;
+    width: 100%;
+}
+
+.EduSpot-Logo a{
+    color: var(--base-color);
+    padding-left: 0.5em;
+}
+
+.EduSpot-Menu ul{
+    display: flex;
+}
+
+.EduSpot-Menu a{
+    color: black;
+    transition: 0.5s;
+}
+
+.EduSpot-Menu a:hover, .EduSpot-Menu a:focus,
+.Footer-Links a:hover {
+    color: var(--base-color);
+}
+
+.EduSpot-Menu li{
+    margin-top: 0.5em;
+    padding-left: 2em;
+
+}
+
+.Eduspot-Logo a{
+    color: var(--base-color);
+}
+
+.btnLogin{
+    border: 1px solid #00A9FF;
+    background-color: white;
+    padding: 0.7em 2em;
+    border-radius: 0.5em;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btnLogin:hover{
+    background-color: var(--base-color);
+    color: white !important;
+    transition: 0.5s;
+}

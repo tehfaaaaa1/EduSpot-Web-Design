@@ -39,7 +39,7 @@ header{
 
 .EduSpot-Logo a{
     color: var(--base-color);
-    padding-left: 2.3em;
+    padding-left: 0.5em;
 }
 
 .EduSpot-Menu ul{
@@ -48,29 +48,18 @@ header{
 
 .EduSpot-Menu a{
     color: black;
+    transition: 0.5s;
 }
 
-.EduSpot-Menu a::after{
-    content: '';
-	width: 0;
-	height: 2px;
-	background: #00A9FF;
-	display: block;
-	margin: auto;
-	transition: 0.5s;
-}
-
-.EduSpot-Menu a:hover::after{
-    width: 100%;
+.EduSpot-Menu a:hover, .EduSpot-Menu a:focus,
+.Footer-Links a:hover {
+    color: var(--base-color);
 }
 
 .EduSpot-Menu li{
     margin-top: 0.5em;
-    padding-right: 1em;
-}
+    padding-left: 2em;
 
-.EduSpot-Menu ul li {
-    margin-left: 1em;
 }
 
 .Eduspot-Logo a{
@@ -80,16 +69,14 @@ header{
 .btnLogin{
     border: 1px solid #00A9FF;
     background-color: white;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 0.7em 2em;
     border-radius: 0.5em;
     transition: 0.5s;
+    cursor: pointer;
 }
 .btnLogin:hover{
     background-color: var(--base-color);
-    color: white;
+    color: white !important;
     transition: 0.5s;
 }
 .hero{
@@ -243,9 +230,12 @@ footer {
 
 .Footer-About p{
     line-height: 1.8em;
+    text-align: justify;
+    margin-left: 1.4em;
 }
 .Footer-About h3 {
     margin-bottom: 0.8em;
+    margin-left: 1.2em;
 }
 
 .Footer-Links{
@@ -255,6 +245,15 @@ footer {
 
 .Footer-Links li{
     margin-top: 0.8em;
+    margin-left: 3.5em;
+}
+
+.Footer-Links a {
+    transition: 0.5s;
+}
+
+.Footer-Links h3{
+    margin-left: 3em;
 }
 
 .Footer-Contacts{
@@ -263,7 +262,7 @@ footer {
 }
 
 .Footer-Contacts li{
-    margin-top: 0.5em;
+    margin-top: 1em;
     margin-right: 1em;
     border: 1px solid #00A9FF;
     border-radius: 50%;
@@ -276,7 +275,7 @@ footer {
 
 .Footer-Contacts i{
     font-size: 1.5em;
-    padding: 0.5em;
+    padding: 0.3em;
 }
 
 .Footer-Contacts i:hover{
