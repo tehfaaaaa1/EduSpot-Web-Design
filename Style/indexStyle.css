@@ -5,20 +5,28 @@
     font-family: sans-serif;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
 
 header{
     display: flex;
-    margin-top: 2em;
-    margin-left: 7em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    padding: 2rem 7%;
+    border: 1px solid black;
+    width: 100%;
 }
 
 .EduSpot-Logo a{
     color: #00A9FF;
-}
-
-.EduSpot-Menu{
-    margin-left: 45em;
+    padding-left: 2.3em;
 }
 
 .EduSpot-Menu ul{
@@ -29,9 +37,17 @@ header{
     color: black;
 }
 
+.EduSpot-Menu a:hover{
+    transition: 0.5s;
+}
+
 .EduSpot-Menu li{
     margin-top: 0.5em;
-    padding-right: 2em;
+    padding-right: 1em;
+}
+
+.EduSpot-Menu ul li {
+    margin-left: 1em;
 }
 
 .Eduspot-Logo a{
@@ -39,16 +55,105 @@ header{
 }
 
 .btnLogin{
-    border: 2px solid #00A9FF;
+    border: 1px solid #00A9FF;
+    background-color: white;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
     padding-left: 2em;
     padding-right: 2em;
     border-radius: 0.5em;
+    transition: 0.5s;
 }
-
 .btnLogin:hover{
     background-color: #00A9FF;
     color: white;
     transition: 0.5s;
 }
+.hero{
+    padding-top: 10em;
+}
+
+.hero h1{
+    font-size: 2.5em;
+    line-height: 1.5em;
+    margin-top: 2em;
+    margin-left: 2.7em;
+}
+
+.hero p{
+    font-size: 1em;
+    margin-left: 7em;
+    line-height: 2em;
+    margin-top: 1em;
+    color: #A5A5A5;
+    width: 500px;
+}
+
+.btnLogin.oreh {
+    margin-left: 8.4em;
+    margin-top: 3em;
+}
+
+.Lorentza{
+    display: flex;
+}
+
+.Meow img{
+    width: 70%;
+    margin-top: 7.5em;
+    margin-left: 12em;
+}
+
+.Fateeh{
+    background-color: whitesmoke;
+    width: 100%;
+    padding-top: 8em;
+    padding-bottom: 6em;
+}
+
+.Fateeh h2{
+    text-align: center;
+}
+
+.Service-List {
+    display: flex;
+    margin: 4em 8%;
+}
+
+.cardView {
+    background-color: white;
+    border-radius: 0.5em;
+    margin-left: 1em;
+}
+
+.cardView i{
+    font-size: 2em;
+    margin-left: 3.8em;
+    margin-top: 1.5em;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    padding: 0.5em;
+}
+
+.cardView h4{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.cardView p {
+    padding: 0.8em 5%;
+    text-align: center;
+    color: #A5A5A5;
+}
+
+.btnLogin.resize {
+    font-size: 1em;
+}
+
+#about {
+    padding-top: 8em;
+}
+#about h2 {
+    text-align: center;
+}
+#about img
