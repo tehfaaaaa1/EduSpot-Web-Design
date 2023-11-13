@@ -18,7 +18,7 @@ header{
 }
 
 .EduSpot-Menu{
-    margin-left: 2em;
+    margin-left: 45em;
 }
 
 .EduSpot-Menu ul{
@@ -31,7 +31,7 @@ header{
 
 .EduSpot-Menu li{
     margin-top: 0.5em;
-    padding-right: 1em;
+    padding-right: 2em;
 }
 
 .Eduspot-Logo a{
@@ -39,6 +39,16 @@ header{
 }
 
 .btnLogin{
+    border: 2px solid #00A9FF;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 0.5em;
+}
+
+.btnLogin:hover{
     background-color: #00A9FF;
-    
+    color: white;
+    transition: 0.5s;
 }
