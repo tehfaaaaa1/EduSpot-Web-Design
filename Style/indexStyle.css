@@ -18,6 +18,19 @@ header{
 }
 
 .EduSpot-Menu{
-    marg
+    margin-left: 2em;
+}
+
+.EduSpot-Menu ul{
+    display: flex;
+}
+
+.EduSpot-Menu a{
+    color: black;
+}
+
+.EduSpot-Menu li{
+    margin-top: 0.5em;
+    padding-right: 1em;
 }
 
