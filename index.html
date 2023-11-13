@@ -6,6 +6,7 @@
     <title>EduSpot</title>
     <link rel="stylesheet" href="Style/indexStyle.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" href="">
 </head>
 <body>
     <header>
@@ -14,10 +15,10 @@
         </div>
         <div class="EduSpot-Menu">
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#Service">Services</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="">Consult</a></li>
+                <li><a href="#consult">Consult</a></li>
                 <li><a href="login.html" class="btnLogin">Login</a></li>
             </ul>
         </div>
@@ -29,7 +30,7 @@
         <div class="hero">
             <h1>Find the good life by <br>Good Health</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates perferendis repellat error necessitatibus eaque vitae cumque deleniti atque. Deleniti vitae modi</p>
-            <button class="btnLogin oreh">Learn more</button>
+            <button class="btnLogin oreh resize">Learn more</button>
         </div>
         <div class="Meow">
             <img src="Img/docrot.png" alt="">
@@ -72,47 +73,60 @@
 
         <section id="about">
             <h2>About Us</h2>
-            <img src="Img/Docto2.jpeg" alt="">
-            <div class="AboutList">
-                <div class="AboutCard">
-                    <i class='bx bx-pencil' ></i>
-                    <b>What's EduSpot?</b>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempore odit impedit deleniti enim velit? </p>
-                </div>
-                <div class="AboutCard">
-                    <i class='bx bx-pin' ></i>
-                    <b>Why was EduSpot Created?</b>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempore odit impedit deleniti enim velit? </p>
+            <div class="flex" style="justify-content: space-evenly;">
+                <img src="Img/Docto2.jpeg" alt="">
+                <div class="AboutList">
+    
+                    <div class="AboutCard">
+                        <i class='bx bx-pencil' ></i>
+                        <b>What's EduSpot?</b>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Quam tempore odit impedit deleniti enim velit? </p>
+                    </div>
+    
+                    <div class="AboutCard">
+                        <i class='bx bx-pin' ></i>
+                        <b>Why was EduSpot Created?</b>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Quam tempore odit impedit deleniti enim velit? </p>
+                    </div>
+                    
                 </div>
             </div>
+            
         </section>
-        <section>
-            <h2>Good Service By Our Therapists</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus error commodi iste non, natus, hic assumenda nulla dolores corporis eius nemo odio a exercitationem quos iusto quae consectetur cum sit.</p>
-            <button class="btnLogin">Book Now</button>
-            <img src="Img/Doctor3.png" alt="">
+        
+        <section class="Ambraise" id="consult">
+            <div class="flex" style="justify-content: space-evenly;">
+                <div class="DanHeng">
+                    <h2>Good Service By Our Therapists</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus error commodi iste non, natus, hic assumenda t. Modi beatae, amet ipsam blanditiis officia, praesentium ab a fuga ducimus sequi at
+                    </p>
+                    <a href="login.html"><button class="btnLogin resize">Book Now</button></a>
+                </div>
+                <img src="Img/Doctor3.png" alt="">
+            </div>
         </section>
     </body>
     
     <footer>
         <div class="Footer-About">
-            <b>EduSpot</b>
+            <h3>EduSpot</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi beatae, amet ipsam blanditiis officia, praesentium ab a fuga ducimus sequi at incidunt distinctio laborum harum laudantium perspiciatis laboriosam, corporis eligendi!</p>
         </div>
         <div class="Footer-Links">
-            <b>Useful Links</b>
+            <h3>Useful Links</h3>
             <ul>
-                <li>About</li>
-                <li>Services</li>
-                <li>Articles</li>
-                <li>Privacy Policy</li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Articles</a></li>
+                <li><a href="">Privacy Policy</a></li>
             </ul>
         </div>
         <div class="Footer-Contacts">
-            <b>Social Media</b>
+            <h3>Social Media</h3>
             <ul>
                 <li><a href=""><i class='bx bxl-instagram' ></i></a></li>
-                <li><a href=""><i class='bx bxl-gmail' ></i></a></li>\
+                <li><a href=""><i class='bx bxl-gmail' ></i></a></li>
                 <li><a href=""><i class='bx bxl-twitter' ></i></a></li>
                 <li><a href=""><i class='bx bxl-linkedin' ></i></a></li>
             </ul>
