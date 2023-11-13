@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    margin-top: 2em;
+    margin-left: 7em;
+}
+
+.Eduspot-Logo a{
+    color: #00A9FF;
+}
+
