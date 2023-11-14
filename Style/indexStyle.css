@@ -84,18 +84,22 @@ header{
     color: white !important;
 }
 .btnSubmit {
+    width: 100%;
     background-color: var(--base-color);
     color: white;
     border: none;
     border-radius: 0.5em;
-    padding: 12px 16px;
-    transition: 0.5s;
+    padding: 12px 37px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 0em;
 }
+
 .btnSubmit:hover {
     background-color: white;
     border: 2px solid var(--base-color);
     color: black !important;
+    transform: none;
+    transition: 0.5s;
 }
 
 .hero{
@@ -234,7 +238,7 @@ header{
 }
 
 .DanHeng button {
-    margin-left: 1em;
+    margin-left: -1.7em;
     cursor: pointer;
 }
 
