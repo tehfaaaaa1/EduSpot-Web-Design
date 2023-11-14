@@ -85,6 +85,7 @@ header{
 }
 .btnSubmit {
     width: 100%;
+    font-size: 1em;
     background-color: var(--base-color);
     color: white;
     border: none;
