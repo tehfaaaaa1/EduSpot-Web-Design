@@ -1,6 +1,7 @@
 :root{
     --base-color: #00A9FF;
     --p-color: #a5a5a5;
+    --nav-bg: #e8e8e8;
 }
 
 *{
@@ -30,29 +31,30 @@ p {
 button {
     cursor: pointer;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.active {
     background-color: white;
-    position: fixed;
-    top: 0;
-    padding: 2rem 7%;
-    width: 100%;
+    padding: 1em;
+    border-radius: 8px;
 }
-
+header{
+    background-color: var(--nav-bg);
+    position: fixed;
+    padding: 5rem 6%;
+    height: 100%;
+}
+.EduSpot-Logo {
+    text-align: center;
+    margin-bottom: 3em;
+}
 .EduSpot-Logo a{
     color: var(--base-color);
-    padding-left: 0.5em;
-}
-
-.EduSpot-Menu ul{
-    display: flex;
 }
 
 .EduSpot-Menu a{
     color: black;
     transition: 0.5s;
+    display: flex;
+    align-items: center;
 }
 
 .EduSpot-Menu a:hover, .EduSpot-Menu a:focus,
@@ -61,9 +63,12 @@ header{
 }
 
 .EduSpot-Menu li{
-    margin-top: 0.5em;
-    padding-left: 2em;
+    margin: 2em 0;
+}
 
+.EduSpot-Menu i {
+    font-size: 1.5em;
+    margin-right: 0.5em;
 }
 
 .Eduspot-Logo a{
