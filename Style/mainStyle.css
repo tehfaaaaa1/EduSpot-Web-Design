@@ -55,6 +55,8 @@ header{
     position: fixed;
     padding: 5rem 6%;
     height: 100%;
+    top: 0;
+    left: 0;
 }
 .EduSpot-Logo {
     text-align: center;
@@ -112,6 +114,7 @@ header{
     padding: 12px 37px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-left: 0em;
+    transition: 0.5s;
 }
 
 .btnSubmit:hover {
@@ -119,13 +122,16 @@ header{
     border: 2px solid var(--base-color);
     color: black !important;
     transform: none;
-    transition: 0.5s;
 }
 
 .pjqm{
     position: relative;
     margin-left: 330px;
     right: 0;
+}
+
+.Topbar {
+    margin: 2em 0;
 }
 
 .search-box {
@@ -150,7 +156,6 @@ header{
 
 .nhcef h1{
     margin-left: 16em;
-    margin-top: 1em;
 }
 
 .jnhuf{
@@ -221,7 +226,7 @@ header{
     margin-right: 10px;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1540479859555-17af45c78602?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
-    height: 9em;
+    height: 9.8em;
     padding: 1em;
     color: white;
     background-size: cover;
