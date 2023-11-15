@@ -1,0 +1,41 @@
+.artikel-section {
+    margin-left: 24em;
+    margin-top: 3em;
+    margin-right: 4em;
+}
+
+.artikel-section h2 {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+
+.artikel-section img {
+    width: 220px; height: 150px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.artikel-content {
+    padding-right: 30px;
+}
+
+.artikel-content h4 {
+    color: var(--p-color);
+    margin: 0.4em 0;
+}
+
+.artikel-content p {
+    line-height: 2em;
+}
+
+.aslkfnpo {
+    width: 82%;
+}
+
+.artikel-readmore a {
+    color: var(--base-color);
+    text-decoration: underline;
+}
+
+/* artikel-detail.html */
+
