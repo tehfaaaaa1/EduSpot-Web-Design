@@ -14,13 +14,22 @@
     box-sizing: border-box;
 }
 
+/* Template CSS */
 .center {
     display: flex;
     justify-content: center;
 }
-
 .flex {
     display: flex;
+}
+.flex-c-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-c-vert {
+    display: flex;
+    align-items: center;
 }
 a {
     color: black;
@@ -36,6 +45,11 @@ button {
     padding: 1em;
     border-radius: 8px;
 }
+.active a {
+    color: var(--base-color) !important;
+}
+
+/* Header */
 header{
     background-color: var(--nav-bg);
     position: fixed;
@@ -106,4 +120,113 @@ header{
     color: black !important;
     transform: none;
     transition: 0.5s;
+}
+
+.pjqm{
+    position: relative;
+    margin-left: 330px;
+    right: 0;
+}
+
+.search-box {
+    margin-left: 50px;
+}
+
+.search-box input{
+    background-color: whitesmoke;
+    border: none;
+    padding: 1em;
+    width: 100%;
+    border-radius: 8px 0 0 8px;
+}
+
+.search-box i {
+    padding: 1em;
+    color: white;
+    background-color: var(--base-color);
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+}
+
+.nhcef h1{
+    margin-left: 16em;
+    margin-top: 1em;
+}
+
+.jnhuf{
+    width: 70%;
+    height: 15em;
+    background-color: #00A9FF;
+    margin-left: 24em;
+    margin-top: 1em;
+    border-radius: 10px;
+}
+
+.settings {
+    margin-right: 75px;
+}
+
+.settings i {
+    font-size: 1.5em;
+    margin-right: 1.3em;
+    cursor: pointer;
+    color:  #a5a5a5
+}
+
+.settings img {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.jniur h2{
+    color: white;
+    padding-left: 1em;
+    font-size: 1.8em;
+}
+
+.jniur p{
+    color: white;
+    margin-left: 1.8em;
+    margin-top: 0.5em;
+}
+
+.jnjs i{
+    margin-left: 1em;
+    font-size: 1.8em;
+    background-color: white;
+    padding: 0.3em;
+    border-radius: 100%;
+}
+
+.jhidx p{
+    color: white;
+    margin-left: 1.3em;
+}
+
+.hjvd{
+    margin-top: 2.5em;
+}
+
+.hjgn img{
+    margin-left: 5em;
+}
+
+.home-cardlist {
+    margin-left: 24em;
+}
+
+.home-card {
+    width: 22.7%;
+    margin-right: 10px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1540479859555-17af45c78602?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    height: 9em;
+    padding: 1em;
+    color: white;
+    background-size: cover;
+    border-radius: 10px;
+}
+.home-card p {
+    color: white;
 }
