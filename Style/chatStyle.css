@@ -3,13 +3,14 @@
     margin-top: 6em;
     margin-right: 4em;
     margin-bottom: 4em;
-    min-height: 1000px;
 }
 
 .chat-kolom {
     width: 60%;
     margin-right: 1em;
     background-color: antiquewhite;
+    border-radius: 10px 10px 0 0;
+    height: 800px;
 }
 
 .chat-topbar {
@@ -29,6 +30,8 @@
     border: 2px solid white;
     border-radius: 50%;
     margin-right: 1.2em;
+    object-fit: contain;
+    background-color: white;
 }
 
 .chat-call {
@@ -59,6 +62,7 @@
     border: 2px solid #d9d9d9;
     width: 60px; height: 60px;
     margin-right: 1.4em;
+    object-fit: cover;
 }
 
 .chat-isi {
@@ -70,39 +74,58 @@
     border: 2px solid white;
 }
 .message-sent, .message-receive {
+    position: relative;
     padding: 0.8em;
+}
+
+.message-sent i, .message-receive i {
+    font-size: 1.4em;
+    margin-right: 0.3em;
+}
+
+.message-sent span, .message-receive span {
+    display: flex;
+    color: #aaaaaa;
 }
 
 .message-sent {
     background-color: white;
     width: 60%;
     border-radius: 12px 12px 0 12px;
+    left: 14em;
+}
+
+.message-sent span {
+    justify-content: end;
+    margin-right: 1.5em;
 }
 
 .message-receive {
+    margin: 2em 0;
     width: 60%;
     background-color:aliceblue;
     border-radius: 12px 12px 12px 0;
 }
 
-.send-message {
-    position:   absolute;
-    bottom: 0;
-}
-
 .chat-kolom .input-box {
-    margin: 2em 2em;
+    margin: 1em 2em;
 }
 
 .input-box .input-field {
     position: relative;
-    width: 100%; height: 3em;
+    width: 100%; height: 3.2em;
     margin: 1em 0;
 }
 
+.input-box .input-field input {
+    padding-right: 7.5em;
+}
+
 .input-box .input-field i {
-    right: 2em;
+    right: 1em;
     left: auto;
+    margin-right: 60px;
+    cursor: pointer;
 }
 
 .input-box .input-field .mic-circle {
@@ -111,8 +134,9 @@
     padding: 0.4em;
     cursor: pointer;
     color: white;
+    margin-right: auto;
 }
 
-.input-box .input-field .mic-circle i {
-    margin: 10em;
+.chat p {
+    color: black;
 }
