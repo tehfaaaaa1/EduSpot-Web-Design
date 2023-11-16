@@ -7,6 +7,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="Style/mainStyle.css">
+    <link rel="stylesheet" href="Style/chatStyle.css">
 
     <!-- Boxicon -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -36,5 +37,92 @@
             </ul>
         </div>
     </header>
+
+    <section class="Topbar"> 
+        <!-- ini kayak buat cover -->
+            <br>
+            <div class="pjqm flex-c-sb">            
+                <div class="search-box flex">
+                    <input type="text" placeholder="Kolom pencarian" id="search-input">
+                    <i class='bx bx-search-alt-2' id="search-icon"></i>
+                </div>
+                <div class="settings flex-c-vert">
+                    <i class='bx bx-cog'></i>
+                    <i class='bx bx-bell' ></i>
+                    <img src="Img/elgato.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+
+    <section class="chat flex">
+        <section class="chat-kolom">
+            <div class="chat-topbar flex-c-sb">
+                <div class="chat-profile flex-c-vert">
+                    <img src="Img/profil-dokter1.png" alt="">
+                    <h3>Dr. Avira McAfee</h3>
+                </div>
+                <div class="chat-call back">
+                    <i class='bx bxs-phone-call'></i>
+                </div>
+            </div>
+            <div class="chat-isi">
+                <p class="message-sent">Selamat pagi... <br>
+                Dok, saya izin bertanya bagaimana cara menengangkan anak yang sedang tantrum?</p>
+                <p class="message-receive">
+                    Selamat pagi... Untuk menenangkannya, ini beberapa cara yang anda bisa lakukan : <br>
+                    1. Give the child space,<br>
+                    2. Keep self-soothing tools nearby,<br>
+                    3. Stay calm<br>
+                    Hope it helps :D
+                </p>
+                <p class="message-sent">
+                    Oke, terimakasih atas sarannya, dok...
+                </p>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Kirim pesan">
+                    <i class='bx bx-link-alt' ></i>
+                    <i class='mic-circle bx bxs-microphone' ></i>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider-vert"></div>
+
+        <aside>
+            <h2>Messages</h2>
+            <div class="chat-profile flex">
+                <div class="flex-c-vert">
+                    <img src="Img/kurukuru-herta.gif" alt="">
+                    <div class="kowkow">
+                        <b>M. Daud Kifli</b>
+                        <p>TOLONG AKU</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-profile flex">
+                <div class="flex-c-vert">
+                    <img src="Img/kurukuru-herta.gif" alt="">
+                    <div class="kowkow">
+                        <b>Freddie Highmore</b>
+                        <p>Oke sip, thank you 👍👍</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-profile flex">
+                <div class="flex-c-vert">
+                    <img src="Img/kurukuru-herta.gif" alt="">
+                    <div class="kowkow">
+                        <b>Muhammad Roland</b>
+                        <p>Sip bosQ ✌️</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </section>
 
 </body>
