@@ -156,9 +156,10 @@ header{
 }
 
 .cardView {
+    width: 40%;
     background-color: white;
     border-radius: 0.5em;
-    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .cardView i{
