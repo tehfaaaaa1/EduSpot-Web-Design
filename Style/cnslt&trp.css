@@ -205,8 +205,10 @@ h3 {
 }
 
 .jadwal-list i {
+    color: var(--base-color);
     font-size: 2em;
     cursor: pointer;
+    margin-left: 1.2em;
 }
 
 .jadwal-list b {
@@ -217,4 +219,35 @@ h3 {
 .jadwal-list p {
     width: 14em;
     font-weight: 500;
+}
+
+/* TERAPI DIY & KLINIK TERAPI */
+.therapy-body iframe {
+    height: 331px;
+}
+
+.therapy-body aside img {
+    width: 150px;
+    height: 120px;
+}
+
+.clinic-img img{
+    width: 100%;
+    border-radius: 0;
+    height: 332px;
+    object-fit: cover;
+}
+
+.therapy-body aside .comment-section img {
+    border-radius: 50%;
+    border: 2px solid #919191;
+    height: 80px; width: 80px;
+}
+
+.comment {
+    margin-top: 0.5em;
+    padding: 1em;
+    border: 2px solid #919191;
+    border-radius: 10px 10px 10px 0;
+    max-width: 22em;
 }
