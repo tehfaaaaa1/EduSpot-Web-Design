@@ -52,15 +52,18 @@
     width: 52px;
 }
 
-.artikel-isi img{
+.artikel-isi .article-gambar{
     width: 100%;
     height: 25em;
-    border-radius: 1%;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Img/article-pompom.png);
 }
 
 .icon-article i{
     margin-top: 1em;
-    color: #00A9FF;
+    color: var(--base-color);
     font-size: 1.5em;
 }
 
@@ -69,7 +72,7 @@
 }
 
 .article-beneran p{
-    color: #00A9FF;
+    color: var(--base-color);
     margin-top: 1.38em;
     margin-left: 1em;
 }
@@ -96,10 +99,6 @@
     margin-left: 1em;
     font-size: 1.2em;
     margin-top: 1em;
-}
-
-.buat-flex-lagi-beneran-banget{
-    display: flex;
 }
 
 .akun-author p{
@@ -147,7 +146,7 @@ blockquote{
 	padding: 1rem 2.8rem;
 	line-height: 1.6;
 	font-weight: 300;
-	box-shadow: inset 0.5rem 0 0 #00A9FF;
+	box-shadow: inset 0.5rem 0 0 var(--base-color);
 	background-color: #f5f5f5;
     margin-left: -9.2em;
 }
@@ -180,10 +179,28 @@ blockquote{
 }
 
 .article-lainnya{
-    width: 30%;
+    width: 33%;
     height: 25em;
     background-color: whitesmoke;
     margin-left: -9em;
+    margin-top: 2em;
+    border-radius: 2%;
+}
+
+.article-lainnya2{
+    width: 35%;
+    height: 25em;
+    background-color: whitesmoke;
+    margin-left: 1.9em;
+    margin-top: 2em;
+    border-radius: 2%;
+}
+
+.article-lainnya3{
+    width: 40%;
+    height: 25em;
+    background-color: whitesmoke;
+    margin-left: 1.9em;
     margin-top: 2em;
     border-radius: 2%;
 }
@@ -193,19 +210,54 @@ blockquote{
     height: 13em;
 }
 
+.article-lainnya2 img{
+    width: 100%;
+    height: 13em;
+}
+
+.article-lainnya3 img{
+    width: 100%;
+    height: 13em;
+}
+
 .icon-article-beneran i{
-    color: #00A9FF;
+    color: var(--base-color);
     margin-left: 1em;
     font-size: 1.2em;
     margin-top: 0.7em;
 }
 
-.buat-flex-lagi-beneran-banget-dah-ini{
-    display: flex;
-}
-
 .somethingnya-article{
-    color: #00A9FF;
+    color: var(--base-color);
     margin-top: 0.6em;
     margin-left: 1em;
+}
+
+.article-lainnya h4{
+    margin-left: 1.5em;
+    margin-top: 0.4em;
+}
+
+.article-lainnya2 h4{
+    margin-left: 1.5em;
+    margin-top: 0.4em;
+}
+
+.article-lainnya3 h4{
+    margin-left: 1.5em;
+    margin-top: 0.4em;
+}
+
+.read-article a{
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    /* font-size: 0.8em; */
+}
+
+.article-panah i{
+    font-size: 1.4em;
+    margin-top: 1.1em;
+    margin-left: 0.5em;
 }

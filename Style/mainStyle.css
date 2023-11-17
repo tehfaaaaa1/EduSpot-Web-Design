@@ -17,6 +17,7 @@
 /* Template CSS */
 .center {
     display: flex;
+    justify-content: center;
 }
 .flex {
     display: flex;
@@ -288,4 +289,8 @@ header{
 }
 .home-card p {
     color: white;
+}
+
+#home-card1 {
+    background:url(../Img/home-card1.jpg);
 }
